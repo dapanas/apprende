@@ -10,6 +10,7 @@
 
 @interface DataViewController : UIViewController
 
+- (IBAction)dismissView:(id)sender;
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
 

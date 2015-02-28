@@ -29,4 +29,7 @@
     self.dataLabel.text = [self.dataObject description];
 }
 
+- (IBAction)dismissView:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

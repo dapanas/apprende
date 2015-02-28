@@ -16,6 +16,9 @@
 		6DDE241B1AA1E97B0092A602 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE241A1AA1E97B0092A602 /* Images.xcassets */; };
 		6DDE241E1AA1E97B0092A602 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE241C1AA1E97B0092A602 /* LaunchScreen.xib */; };
 		6DDE242A1AA1E97B0092A602 /* ApprendeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24291AA1E97B0092A602 /* ApprendeTests.m */; };
+		6DDE24351AA1EB400092A602 /* CourseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24341AA1EB400092A602 /* CourseCollectionViewController.m */; };
+		6DDE24371AA1F1140092A602 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE24361AA1F1140092A602 /* placeholder.png */; };
+		6DDE243A1AA1F7BC0092A602 /* CourseCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24391AA1F7BC0092A602 /* CourseCollectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,11 @@
 		6DDE24231AA1E97B0092A602 /* ApprendeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApprendeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDE24281AA1E97B0092A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DDE24291AA1E97B0092A602 /* ApprendeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApprendeTests.m; sourceTree = "<group>"; };
+		6DDE24331AA1EB400092A602 /* CourseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCollectionViewController.h; sourceTree = "<group>"; };
+		6DDE24341AA1EB400092A602 /* CourseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCollectionViewController.m; sourceTree = "<group>"; };
+		6DDE24361AA1F1140092A602 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		6DDE24381AA1F7BC0092A602 /* CourseCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCollectionHeaderView.h; sourceTree = "<group>"; };
+		6DDE24391AA1F7BC0092A602 /* CourseCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCollectionHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 				6DDE24141AA1E97B0092A602 /* ModelController.h */,
 				6DDE24151AA1E97B0092A602 /* ModelController.m */,
 				6DDE24171AA1E97B0092A602 /* Main.storyboard */,
+				6DDE24381AA1F7BC0092A602 /* CourseCollectionHeaderView.h */,
+				6DDE24391AA1F7BC0092A602 /* CourseCollectionHeaderView.m */,
+				6DDE24331AA1EB400092A602 /* CourseCollectionViewController.h */,
+				6DDE24341AA1EB400092A602 /* CourseCollectionViewController.m */,
 				6DDE241A1AA1E97B0092A602 /* Images.xcassets */,
 				6DDE241C1AA1E97B0092A602 /* LaunchScreen.xib */,
 				6DDE24071AA1E97B0092A602 /* Supporting Files */,
@@ -106,6 +118,7 @@
 		6DDE24071AA1E97B0092A602 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DDE24361AA1F1140092A602 /* placeholder.png */,
 				6DDE24081AA1E97B0092A602 /* Info.plist */,
 				6DDE24091AA1E97B0092A602 /* main.m */,
 			);
@@ -209,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDE24371AA1F1140092A602 /* placeholder.png in Resources */,
 				6DDE24191AA1E97B0092A602 /* Main.storyboard in Resources */,
 				6DDE241E1AA1E97B0092A602 /* LaunchScreen.xib in Resources */,
 				6DDE241B1AA1E97B0092A602 /* Images.xcassets in Resources */,
@@ -229,6 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDE24351AA1EB400092A602 /* CourseCollectionViewController.m in Sources */,
+				6DDE243A1AA1F7BC0092A602 /* CourseCollectionHeaderView.m in Sources */,
 				6DDE24131AA1E97B0092A602 /* DataViewController.m in Sources */,
 				6DDE240D1AA1E97B0092A602 /* AppDelegate.m in Sources */,
 				6DDE24161AA1E97B0092A602 /* ModelController.m in Sources */,
